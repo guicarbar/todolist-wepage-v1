@@ -24,6 +24,157 @@
 }
 
 /* global */
-* {
+body {
+  background-color: var(--color2);
+}
+
+main {
+  width: 600px;
+  height: calc(85vh - 6em);
+  margin: 3em auto;
+  border-radius: 32px;
+  background-color: var(--color1);
+}
+
+
+/* globa text */
+h1 {
   font-family: var(--fontMain);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+p {
+  font-family: var(--fontMain);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+/* list area - main */
+/* title css */
+.title {
+  padding: 1em;
+  background-color: var(--color3);
+  border-radius: 32px 32px 0px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.title > i {
+  font-size: 32px;
+}
+
+/* list area - content */
+.list {
+  height: 85%;
+  overflow-y: scroll;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.list_item {
+  width: 70%;
+  margin-top: 1em;
+  padding: .6em 3em;
+  border: 1px solid var(--color2);
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.list_item > div > button > i {
+  font-size: 24px;
+}
+
+/* btn global list */
+.list_item > div > button {
+  border: 1px solid var(--color2);
+  padding: .4em .8em;
+  border-radius: 32px;
+  transition: all .3s ease;
+}
+
+.list_item > div > button:hover {
+  transform: scale(1.1);
+}
+
+.list_item > div > button:active {
+  transform: scale(1);
+}
+
+.btn_check {
+  background-color: var(--colorCheckeditem);
+}
+
+.btn_x {
+  background-color: var(--colorBtnDelete);
+}
+
+.checked_item {
+  background-color: var(--colorCheckeditem);
+}
+
+
+/* footer area */
+footer {
+  height: 15vh;
+  width: 100vw;
+  background-color: var(--colorBlack);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > div {
+  padding: 0 1em;
+  height: 50%;
+  background-color: var(--color2);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+}
+
+footer > div > input {
+  padding: 0.8em;
+  background-color: transparent;
+  border: none;
+}
+
+footer > div > input:focus {
+  outline: none;
+}
+
+footer > div > input::placeholder {
+  color: var(--color1);
+}
+
+footer > div > button {
+  background-color: var(--colorAdditem);
+  border: 1px solid transparent;
+  border-radius: 32px;
+  padding: 0.6em 1.8em;
+  box-sizing: border-box;
+  transition: all .3s ease;
+}
+
+footer > div > button:hover {
+  border: 1px solid var(--colorBlack);
+  transform: scale(1.2);
+}
+
+footer > div > button:active {
+  border: 1px solid var(--colorBlack);
+  transform: scale(1);
+}
+
+footer > div > button > i {
+  font-size: 24px;
 }
