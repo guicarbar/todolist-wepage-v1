@@ -1,0 +1,29 @@
+/* import reset.css */
+@import url(reset.css);
+
+/* import bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* google fonts - funnel sans */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@300..800&display=swap');
+
+/* :root */
+:root {
+  /* var of colors */
+  --color1: #FFF8DC;
+  --color2: #808080;
+  --color3: #F0FFF0;
+  --colorBtnDelete: #FF4500;
+  --colorCheckeditem: #9ACD32;
+  --ColorWhite: #fff;
+  --colorBlack: #00030c;
+  --colorAdditem: #4682B4;
+
+  /* font - google fonts */
+  --fontMain: "Funnel Sans", serif;
+}
+
+/* global */
+* {
+  font-family: var(--fontMain);
+}
