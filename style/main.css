@@ -96,6 +96,7 @@ p {
 .list_item > div > button {
   border: 1px solid var(--color2);
   padding: .4em .8em;
+  margin-left: .6em;
   border-radius: 32px;
   transition: all .3s ease;
 }
