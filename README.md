@@ -19,3 +19,4 @@ Mais um dos meeu projetos para trreiar minhas habilidades com javascript, nesse 
 ---
 
 > ⚠️ **Observação**: Projetos com o sufixo *`-Website`* são aplicativos desenvolvidos especificamente para a web. 🌐  
+
